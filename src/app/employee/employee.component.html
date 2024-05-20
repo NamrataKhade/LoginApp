@@ -1,0 +1,18 @@
+<h1>employee works!</h1>
+<h1 style="background-color: red;">Child Component</h1>
+
+<button>Add</button>
+<button>Sub</button>
+<button>Mult</button>
+<button>Div</button>
+<br>
+<br>
+
+
+<!--  // Parent to Child
+value of Parent Component : {{Pdata}} -->
+
+<!-- Child to Parent : -->
+
+Child Component : <input type="text" #Ccommponent (keyup)="senddata(Ccommponent.value)">
+
